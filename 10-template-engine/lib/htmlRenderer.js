@@ -41,7 +41,7 @@ const renderEngineer = engineer => {
   template = replacePlaceholders(template, "role", engineer.getRole());
   template = replacePlaceholders(template, "email", engineer.getEmail());
   template = replacePlaceholders(template, "id", engineer.getId());
-  template = replacePlaceholders(template, "github", engineer.getGithub());
+  template = replacePlaceholders(template, "github", engineer.getGihub());
   return template;
 };
 

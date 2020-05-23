@@ -9,7 +9,7 @@ class Engineer{
         this.github = github;
     }
 
-    getGitHub(){
+    getGihub(){
         return this.github;
 
     }
