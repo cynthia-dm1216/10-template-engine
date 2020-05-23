@@ -41,10 +41,11 @@ so that I have quick access to emails and GitHub profiles
 [Deployed Link](https://cynthia-dm1216.github.io/10-template-engine/.)
 
 ## Screenshots
-![Myteam](./Assets/MyTeam.png)
+![Myteam](./Assets/images/MyTeam.png)
 
 
 ## GIF
+![MyTeamGif](./Assets/images/MyTeamGif.gif)
 
 
 - - -
