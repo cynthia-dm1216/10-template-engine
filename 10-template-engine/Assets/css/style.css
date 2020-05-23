@@ -5,11 +5,84 @@
 }
 
 html {
-    --color-black: #40514E;
-    --color-blue: #2F89FC;
-    --color-green: #30E3CA;
     --color-white: #F5F5F5; 
     --font-main: 'Open Sans Condensed', sans-serif;
     --font-light: 300;
     --font-medium: 600; 
+} 
+
+.team-heading {
+    background-color: #C4B2BC;
 }
+
+
+body {
+    background-color: #C4B2BC;
+    font-family: var(--font-main);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: var(--font-medium);
+}
+
+.container {
+    width: 100%;
+    max-width: 950px;
+}
+
+.employee-card {
+    background-color: #fff;
+    width: 290px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+}
+
+.card-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18px;
+    color: rgb(164, 155, 221)
+}
+
+.text-center { 
+    font-size: 60px;
+}
+
+
+
+.card-body {
+    padding: 2px 16px;
+}
+
+.list-group{
+    list-style: none;
+}
+
+.list-group-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.list-group-item:first-child {
+    padding-top: 0;
+}
+
+.list-group-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .employee-card {
+        width: 100%;
+    }
+  }
