@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --color-black: #40514E;
+    --color-blue: #2F89FC;
+    --color-green: #30E3CA;
+    --color-white: #F5F5F5; 
+    --font-main: 'Open Sans Condensed', sans-serif;
+    --font-light: 300;
+    --font-medium: 600; 
+}
